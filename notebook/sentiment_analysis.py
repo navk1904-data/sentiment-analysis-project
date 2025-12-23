@@ -2,7 +2,7 @@ import pandas as pd
 from textblob import TextBlob
 
 # Load data
-df = pd.read_csv('../data/reviews.csv')
+df = pd.read_csv('data/reviews.csv')
 
 # Function to calculate sentiment
 def get_sentiment(text):
